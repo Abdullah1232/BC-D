@@ -1,7 +1,7 @@
 client.on('message', message => {
     var prefix = "$";
    
-        if (message.author.id === client.user.id) return;
+        if (message.author.id === client.user.528671672463785984) return;
         if (message.guild) {
        let embed = new Discord.RichEmbed()
         let args = message.content.split(' ').slice(1).join(' ');
